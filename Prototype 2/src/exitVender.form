@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="exitVender">
+  <grid id="27dc6" binding="exitPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="537" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-9922150"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f580" class="javax.swing.JLabel" binding="Intructions">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <foreground color="-397313"/>
+          <text value="Please Press the Ticket Button to Return Your Ticket"/>
+        </properties>
+      </component>
+      <component id="5ef51" class="javax.swing.JButton" binding="ticketReturnButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Ticket Return"/>
+        </properties>
+      </component>
+      <component id="3ac30" class="javax.swing.JLabel" binding="gateOpeningLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-397313"/>
+          <text value="You may now exit through the gate."/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
